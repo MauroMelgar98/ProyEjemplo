@@ -1,12 +1,19 @@
-<script setup></script>
+<script setup>
+import EncabezadoApp from './components/EncabezadoApp.vue';
+
+</script>
+<!-- import EncabezadoApp from '.components/EncabezadoApp.vue' -->
 
 <template>
-  <main>
-  <h1>Sistema de Gestion Emprendimientos</h1>
-  <p>
-    Proyecto de Programacion Web II
-  </p>
-  </main>
+  <EncabezadoApp
+    titulo="Gestion de Emprendimientos"
+    subtitulo="Proyecto de Programacion Web II"
+  />
+
+<main>
+  <h1> Modulos prinpipales </h1>
+  <p> Clientes, productos,ventas e inventario </p>
+</main>
 </template>
 
 <style scoped>

@@ -1,5 +1,6 @@
 <script setup>
 import EncabezadoApp from './components/EncabezadoApp.vue';
+import FormularioClientes from './components/FormularioClientes.vue';
 
 </script>
 <!-- import EncabezadoApp from '.components/EncabezadoApp.vue' -->
